@@ -1,8 +1,6 @@
-function dataHandling(input)
-{	
+function dataHandling(input) {	
 	var result =""
-	for(let i = 0; i < input.length; i++)
-	{
+	for(let i = 0; i < input.length; i++) {
 		result += "Nomor ID: "+input[i][0]+"\n"+"Nama: "+input[i][1]+"\n"+"TTL: "+input[i][2]+", "+input[i][3]+"\n"+"Hobi: "+input[i][4]+"\n\n";
 	}
 	return result;
@@ -17,16 +15,14 @@ var input = [
 
 console.log(dataHandling(input));
 
-// function dataHandling(input)
-// {	
+// function dataHandling(input) {	
 // 	var dataSiswa = ["Nomor ID", "Nama", "TTL", "Hobi"];
 // 	var result = "";
-// 	for(let i = 0; i < input.length; i++)
-// 	{
+// 	for(let i = 0; i < input.length; i++) {
 // 		result += dataSiswa[0]+": "+input[i][0]+"\n"
 // 		result += dataSiswa[1]+": "+input[i][1]+"\n"
 // 		result += dataSiswa[2]+": "+input[i][2]+", "+input[i][3]+"\n"
 // 		result += dataSiswa[3]+": "+input[i][4]+"\n\n"
 // 	}
-// 		return result;
+// 	return result;
 // }
