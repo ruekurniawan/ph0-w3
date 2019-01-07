@@ -15,4 +15,4 @@ function balikString(str) {
 // 	}
 // 	return result;
 // }
-// console.log(balikString("Hello World!"))
+console.log(balikString("Hello World!"))
